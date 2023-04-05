@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+	int i;
+int myArray[5]= {10,20,30,40,50};
+int firstElement = myArray[0];
+myArray[1] = 60;
+}
