@@ -1,0 +1,9 @@
+# Get the length of the array
+n = len(arr)
+
+# Loop through half of the array and swap elements at opposite ends
+for i in range(n//2):
+    arr[i], arr[n-i-1] = arr[n-i-1], arr[i]
+
+# Print the reversed array
+print(arr)
